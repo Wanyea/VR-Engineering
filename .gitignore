@@ -57,3 +57,7 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
+
+# Exclude Directories
+Project 1 - Virtual Environment/Assets/Prefabs
+Project 1 - Virtual Environment/Library/Artifacts

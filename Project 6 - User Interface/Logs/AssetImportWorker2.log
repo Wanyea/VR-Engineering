@@ -1,0 +1,463 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 49068 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.16f1\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62912
+Successfully changed project path to: C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface
+C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [28176] Host "[IP] 10.127.16.58 [Port] 0 [Flags] 2 [Guid] 1070567381 [EditorId] 1070567381 [Version] 1048832 [Id] WindowsEditor(7,Wanyea-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [28176] Host "[IP] 10.127.16.58 [Port] 0 [Flags] 2 [Guid] 1070567381 [EditorId] 1070567381 [Version] 1048832 [Id] WindowsEditor(7,Wanyea-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 153.73 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.14043.1000
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004864 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 478 ms
+Refreshing native plugins compatible for Editor in 134.63 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1116ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (962ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (801ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (549ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.59 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Package Manager log level set to [2]
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.82.0
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1103ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4819 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (1.4 MB). Loaded Objects now: 5245.
+Memory consumption went from 182.9 MB to 181.5 MB.
+Total: 4.004700 ms (FindLiveObjects: 0.454900 ms CreateObjectMapping: 0.137000 ms MarkObjects: 2.896200 ms  DeleteObjects: 0.515400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152324.247991 seconds.
+  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02
+  artifactKey: Guid(c5ab3555673620d478f6edc0ab21bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02 using Guid(c5ab3555673620d478f6edc0ab21bd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71f34f695df71b9173d5ccfaeb4b338') in 0.014464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050305 seconds.
+  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Ceiling_01.prefab
+  artifactKey: Guid(c8a35b1154033a342ac94fd67adf1991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Ceiling_01.prefab using Guid(c8a35b1154033a342ac94fd67adf1991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c080adbaedd65a92f40db7bc7f8e3a') in 0.135548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.172447 seconds.
+  path: Assets/Apartment Assets/_BPS Basic Assets/Common
+  artifactKey: Guid(fb45e9e13a1072940b2100c8ce370c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/_BPS Basic Assets/Common using Guid(fb45e9e13a1072940b2100c8ce370c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a997650cc1e8ef7b946ccbd1aefb449c') in 0.001905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.152240 seconds.
+  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Fire
+  artifactKey: Guid(edc916d7e70f29947bf61fc90fa31777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Fire using Guid(edc916d7e70f29947bf61fc90fa31777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c4bc339945a8d5c6e1bffd4e3eae47') in 0.005883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088146 seconds.
+  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Fire/Candle Flame.prefab
+  artifactKey: Guid(76ba1ca0f3bd5de408854a87c409fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Fire/Candle Flame.prefab using Guid(76ba1ca0f3bd5de408854a87c409fe9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05121368aa0e0bfb2200f7251a660f47') in 0.083669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 663.600942 seconds.
+  path: Assets/Apartment Assets
+  artifactKey: Guid(39f8a5732a15f774e8d434c1ce70a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets using Guid(39f8a5732a15f774e8d434c1ce70a764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1260c470b937da5c43677085c553461') in 0.007414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.666139 seconds.
+  path: Assets/Apartment Assets/Apartment Kit
+  artifactKey: Guid(6315d9097f0ef714cb63b945663ecbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/Apartment Kit using Guid(6315d9097f0ef714cb63b945663ecbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e27da5d3206e1e8b57f7cd5151f7054') in 0.006506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.148978 seconds.
+  path: Assets/Apartment Assets/Apartment Kit/_Prefabs
+  artifactKey: Guid(3311df2ab1633d845bde5691f2f600f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/Apartment Kit/_Prefabs using Guid(3311df2ab1633d845bde5691f2f600f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02f3029331a4f3af8c9fae58138ca1b') in 0.006116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.900089 seconds.
+  path: Assets/Oculus
+  artifactKey: Guid(86104d16464dc5c4f8fe50083ba01a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus using Guid(86104d16464dc5c4f8fe50083ba01a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc05a399c401cb030e988fee05236145') in 0.005997 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (811ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (264ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 5.17 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 4702 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.4 MB). Loaded Objects now: 5260.
+Memory consumption went from 176.5 MB to 175.1 MB.
+Total: 3.645200 ms (FindLiveObjects: 0.434600 ms CreateObjectMapping: 0.123100 ms MarkObjects: 2.661800 ms  DeleteObjects: 0.424600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 449.200462 seconds.
+  path: Assets/studio apartment/demo
+  artifactKey: Guid(6a4030791ce945e44be41abbd2eae3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/demo using Guid(6a4030791ce945e44be41abbd2eae3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d867f665ab4c654d6ee7510628c1ca0') in 0.013440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043452 seconds.
+  path: Assets/studio apartment/demo/LightingData.asset
+  artifactKey: Guid(2e3e343315af98b429b729c3826e0249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/demo/LightingData.asset using Guid(2e3e343315af98b429b729c3826e0249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d66be06163c2f067ff73fef0ef79846') in 0.014575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.176575 seconds.
+  path: Assets/studio apartment/demo/Lightmap-0_comp_dir.png
+  artifactKey: Guid(d676e2770c513994e94ef5a7a2013c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/demo/Lightmap-0_comp_dir.png using Guid(d676e2770c513994e94ef5a7a2013c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a953ee29ad701dc6100b78182aa11e') in 0.132010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.052978 seconds.
+  path: Assets/studio apartment/demo.unity
+  artifactKey: Guid(e7483a720be22bb4aa187f7e63f0b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/demo.unity using Guid(e7483a720be22bb4aa187f7e63f0b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1b0a2a3cfdcc11b51b9de1e73bead7') in 0.006744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.147685 seconds.
+  path: Assets/studio apartment/read me.txt
+  artifactKey: Guid(94a1223679e7f1d4892f5397d75c03b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/read me.txt using Guid(94a1223679e7f1d4892f5397d75c03b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170cc057dd30ff5c5fa949fcf01ad872') in 0.024550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.130671 seconds.
+  path: Assets/studio apartment/scripits
+  artifactKey: Guid(dd0cafd1044b6514f879a709200e5f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/scripits using Guid(dd0cafd1044b6514f879a709200e5f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9f147d7aa9d3d2680ca4a3949791c8') in 0.006385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.339695 seconds.
+  path: Assets/studio apartment/textures
+  artifactKey: Guid(1e4d3d5a55999d043abba6cfebb7c582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/textures using Guid(1e4d3d5a55999d043abba6cfebb7c582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4585c90426157d509d74f70e238f94') in 0.006919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.697973 seconds.
+  path: Assets/studio apartment/scripits/PlayerController.cs
+  artifactKey: Guid(222f572c0ff404244bfa4a41dc852f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/scripits/PlayerController.cs using Guid(222f572c0ff404244bfa4a41dc852f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d2c7324a461532441155dabb81480a') in 0.019237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.525051 seconds.
+  path: Assets/studio apartment/scripits/MouseLook.cs
+  artifactKey: Guid(ea46c473686087d4285e554fc08cc962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/scripits/MouseLook.cs using Guid(ea46c473686087d4285e554fc08cc962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6772d5f831270189e6e61501523bf610') in 0.005910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.658191 seconds.
+  path: Assets/studio apartment/prefabs
+  artifactKey: Guid(589e3163653ed16428fb5da07d9042d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs using Guid(589e3163653ed16428fb5da07d9042d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a6bba11408584c0c2d1623a5b4366c') in 0.007117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.223424 seconds.
+  path: Assets/studio apartment/prefabs/bead.prefab
+  artifactKey: Guid(c19b9e902dfbdab4a9dd06db86995fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/bead.prefab using Guid(c19b9e902dfbdab4a9dd06db86995fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2ad9799e161e1f0cecaeca9ee5e6b2') in 0.265116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/studio apartment/prefabs/chair.prefab
+  artifactKey: Guid(3ff6c52932ed68047ba3fb6df9f85eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/chair.prefab using Guid(3ff6c52932ed68047ba3fb6df9f85eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41860d836876bc4f3debca5b59a53219') in 0.017142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/studio apartment/prefabs/frige .prefab
+  artifactKey: Guid(a53994eaf6aee954d9421ba1a086cbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/frige .prefab using Guid(a53994eaf6aee954d9421ba1a086cbc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e73862d859328373815c31f4215bf25') in 0.016021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/studio apartment/prefabs/sofa.prefab
+  artifactKey: Guid(1d3d2d2522b3af949a099709e240d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/sofa.prefab using Guid(1d3d2d2522b3af949a099709e240d0af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e5e5bf9887a8c734b478f4e6e6f70a') in 0.016983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/studio apartment/prefabs/painting .prefab
+  artifactKey: Guid(9e0220964b46a4a4ab2987f9396f8322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/painting .prefab using Guid(9e0220964b46a4a4ab2987f9396f8322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fe0003d205d0a933e429e6cfdc2c95') in 0.019040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/studio apartment/prefabs/blinds up.prefab
+  artifactKey: Guid(890807bb7fcf5354ebd6f70584ba0e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/blinds up.prefab using Guid(890807bb7fcf5354ebd6f70584ba0e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d87289aa1d5871d0faceff9b4e2f19') in 0.014132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/studio apartment/prefabs/tv.prefab
+  artifactKey: Guid(3e44d48c08ee4d34d98d73bdec92adad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/tv.prefab using Guid(3e44d48c08ee4d34d98d73bdec92adad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53292812dda5eceaf2d4bd88364c95d') in 0.014208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/studio apartment/prefabs/kichen cabinet.prefab
+  artifactKey: Guid(fa13091e884871b44a9f0eb29331c123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/kichen cabinet.prefab using Guid(fa13091e884871b44a9f0eb29331c123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0c84c5f39e29cd6347686ac6107c36') in 0.015637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/studio apartment/prefabs/sofa chair.prefab
+  artifactKey: Guid(67860c04d19da684c84e30e7607add93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/sofa chair.prefab using Guid(67860c04d19da684c84e30e7607add93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea702127a04df892f23026c1fd9e5d1d') in 0.020147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/studio apartment/prefabs/shelf .prefab
+  artifactKey: Guid(a2867ec87fc2cd842990a236587a4228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/shelf .prefab using Guid(a2867ec87fc2cd842990a236587a4228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a2b4bbcd834b4098dfd4760a5d7cc5') in 0.023948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/studio apartment/prefabs/player.prefab
+  artifactKey: Guid(d1ee555a18abac54e8d94715945afbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/player.prefab using Guid(d1ee555a18abac54e8d94715945afbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfbf8784217ae99efb5668d53def0d8') in 0.015137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/studio apartment/prefabs/chest of draws .prefab
+  artifactKey: Guid(573d3da8ab104a0478409cb87be818f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/chest of draws .prefab using Guid(573d3da8ab104a0478409cb87be818f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e5f547d122c8e513c42ab40da389fe') in 0.014289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/studio apartment/prefabs/gray sofa cushion.prefab
+  artifactKey: Guid(7e8280068a6013b47b3065cd0d8805bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/studio apartment/prefabs/gray sofa cushion.prefab using Guid(7e8280068a6013b47b3065cd0d8805bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971c51990def35eddfef8ba198698f0d') in 0.013369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.438147 seconds.
+  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Apt_Furniture_01.fbx
+  artifactKey: Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Apt_Furniture_01.fbx using Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '007d445d5253f83cdbe4f8839c6d4913') in 0.397634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Apartment Assets/Apartment Kit/Common/Models/wine bottle 04_LP.fbx
+  artifactKey: Guid(dc3a1db86c73bb14f8ebd6e2953b7e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/wine bottle 04_LP.fbx using Guid(dc3a1db86c73bb14f8ebd6e2953b7e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f29f0bec5af280e1838a11dbc5396a') in 0.052843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx
+  artifactKey: Guid(cbaf1c32e7ec84f10a51be1b09c0ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx using Guid(cbaf1c32e7ec84f10a51be1b09c0ef46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf0d0500d078b4c66445355fa7b29af') in 0.742912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Modern Liquor Cabinet.fbx
+  artifactKey: Guid(fe73d14489f153e4485e26243ed30d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Modern Liquor Cabinet.fbx using Guid(fe73d14489f153e4485e26243ed30d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491726d25ba924288331b9d822cf944b') in 0.130732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Apartment Assets/Apartment Kit/Common/Models/lamp.fbx
+  artifactKey: Guid(693cb6a41bc2205409161bed0f51fdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/lamp.fbx using Guid(693cb6a41bc2205409161bed0f51fdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49b85d06244b30146b8ec90f4da0abd') in 0.040479 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

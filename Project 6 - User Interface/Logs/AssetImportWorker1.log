@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 49068 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16325 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2019.4.16f1\Editor\2021.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface
+C:/Users/ISUE/Documents/GitHub/VR-Engineering/Project 6 - User Interface
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62912
-Successfully changed project path to: C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface
-C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface
+62836
+Successfully changed project path to: C:/Users/ISUE/Documents/GitHub/VR-Engineering/Project 6 - User Interface
+C:/Users/ISUE/Documents/GitHub/VR-Engineering/Project 6 - User Interface
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,74 +47,447 @@ C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2800] Host "[IP] 10.127.16.58 [Port] 0 [Flags] 2 [Guid] 1951001615 [EditorId] 1951001615 [Version] 1048832 [Id] WindowsEditor(7,Wanyea-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17812] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2351926529 [EditorId] 2351926529 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IP2EVD0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2800] Host "[IP] 10.127.16.58 [Port] 0 [Flags] 2 [Guid] 1951001615 [EditorId] 1951001615 [Version] 1048832 [Id] WindowsEditor(7,Wanyea-DESKTOP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17812] Host "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2351926529 [EditorId] 2351926529 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IP2EVD0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 152.95 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.69 ms.
+Refreshing native plugins compatible for Editor in 345.72 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/wanye/source/VR-Engineering/Project 6 - User Interface/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ISUE/Documents/GitHub/VR-Engineering/Project 6 - User Interface/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 580 Series (ID=0x67df)
-    Vendor:   ATI
-    VRAM:     8170 MB
-    Driver:   31.0.14043.1000
+[vulkan] LoadVulkanLibrary vulkan-1.dll[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkGetInstanceProcAddr
+[vulkan] Loaded instance function vkCreateInstance
+[vulkan] Loaded instance function vkEnumerateInstanceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateInstanceLayerProperties
+[vulkan] Loaded instance function vkEnumerateInstanceVersion
+[Vulkan init] extensions: count=14
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+Vulkan detection: 2
+[Vulkan init] extensions: count=14
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=1
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_swapchain_colorspace, enabled=1
+[Vulkan init] extensions: name=VK_NV_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_portability_enumeration, enabled=0
+[vulkan] Loaded instance function vkDestroyInstance
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties
+[vulkan] Loaded instance function vkEnumeratePhysicalDevices
+[vulkan] Loaded instance function vkGetDeviceProcAddr
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties
+[vulkan] Loaded instance function vkCreateDevice
+[vulkan] Loaded instance function vkEnumerateDeviceExtensionProperties
+[vulkan] Loaded instance function vkEnumerateDeviceLayerProperties
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties
+[vulkan] Loaded instance function vkDestroySurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceSupportKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceCapabilitiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfaceFormatsKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSurfacePresentModesKHR
+[vulkan] Loaded instance function vkCreateSwapchainKHR
+[vulkan] Loaded instance function vkDestroySwapchainKHR
+[vulkan] Loaded instance function vkGetSwapchainImagesKHR
+[vulkan] Loaded instance function vkAcquireNextImageKHR
+[vulkan] Loaded instance function vkQueuePresentKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPropertiesKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceDisplayPlanePropertiesKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneSupportedDisplaysKHR
+[vulkan] Loaded instance function vkGetDisplayModePropertiesKHR
+[vulkan] Loaded instance function vkCreateDisplayModeKHR
+[vulkan] Loaded instance function vkGetDisplayPlaneCapabilitiesKHR
+[vulkan] Loaded instance function vkCreateDisplayPlaneSurfaceKHR
+[vulkan] Loaded instance function vkCreateSharedSwapchainsKHR
+[vulkan] Loaded instance function vkCreateWin32SurfaceKHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceWin32PresentationSupportKHR
+[vulkan] Loaded instance function vkSetHdrMetadataEXT
+[vulkan] Loaded instance function vkGetPhysicalDeviceFeatures2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceImageFormatProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceQueueFamilyProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceMemoryProperties2KHR
+[vulkan] Loaded instance function vkGetPhysicalDeviceSparseImageFormatProperties2KHR
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=0000000000000000
+[Vulkan init] Physical Device 0000027D04A9E000 [0]: "NVIDIA GeForce GTX 1080" deviceType=2 vendorID=10de deviceID=1b80
+[Vulkan init] Selected physical device 0000027D04A9E000
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=152
+[Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=1
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure, enabled=0
+[Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+[Vulkan init] extensions: name=VK_KHR_deferred_host_operations, enabled=0
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve, enabled=1
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template, enabled=1
+[Vulkan init] extensions: name=VK_KHR_device_group, enabled=0
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_KHR_driver_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dynamic_rendering, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_win32, enabled=0
+[Vulkan init] extensions: name=VK_KHR_format_feature_flags2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_KHR_present_id, enabled=0
+[Vulkan init] extensions: name=VK_KHR_present_wait, enabled=0
+[Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_maintenance1, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline, enabled=0
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=1
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_integer_dot_product, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
+[Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_synchronization2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
+[Vulkan init] extensions: name=VK_KHR_win32_keyed_mutex, enabled=0
+[Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_attachment_feedback_loop_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
+[Vulkan init] extensions: name=VK_EXT_border_color_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_EXT_color_write_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=1
+[Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing, enabled=0
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
+[Vulkan init] extensions: name=VK_EXT_full_screen_exclusive, enabled=0
+[Vulkan init] extensions: name=VK_EXT_graphics_pipeline_library, enabled=0
+[Vulkan init] extensions: name=VK_EXT_hdr_metadata, enabled=1
+[Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_2d_view_of_3d, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_view_min_lod, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
+[Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_load_store_op_none, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=1
+[Vulkan init] extensions: name=VK_EXT_memory_priority, enabled=1
+[Vulkan init] extensions: name=VK_EXT_multi_draw, enabled=0
+[Vulkan init] extensions: name=VK_EXT_non_seamless_cube_map, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_primitive_topology_list_restart, enabled=0
+[Vulkan init] extensions: name=VK_EXT_primitives_generated_query, enabled=0
+[Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_provoking_vertex, enabled=0
+[Vulkan init] extensions: name=VK_EXT_queue_family_foreign, enabled=0
+[Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=1
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_module_identifier, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=1
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_input_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_2plane_444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
+[Vulkan init] extensions: name=VK_NV_clip_space_w_scaling, enabled=0
+[Vulkan init] extensions: name=VK_NV_copy_memory_indirect, enabled=0
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_NV_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_NV_external_memory_win32, enabled=0
+[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
+[Vulkan init] extensions: name=VK_NV_inherited_viewport_scissor, enabled=0
+[Vulkan init] extensions: name=VK_NV_linear_color_attachment, enabled=0
+[Vulkan init] extensions: name=VK_NV_memory_decompression, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing_invocation_reorder, enabled=0
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_NV_win32_keyed_mutex, enabled=0
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
+[vulkan] Loaded instance function vkDestroyDevice
+[vulkan] Loaded instance function vkGetDeviceQueue
+[vulkan] Loaded instance function vkQueueSubmit
+[vulkan] Loaded instance function vkQueueWaitIdle
+[vulkan] Loaded instance function vkDeviceWaitIdle
+[vulkan] Loaded instance function vkAllocateMemory
+[vulkan] Loaded instance function vkFreeMemory
+[vulkan] Loaded instance function vkMapMemory
+[vulkan] Loaded instance function vkUnmapMemory
+[vulkan] Loaded instance function vkFlushMappedMemoryRanges
+[vulkan] Loaded instance function vkInvalidateMappedMemoryRanges
+[vulkan] Loaded instance function vkGetDeviceMemoryCommitment
+[vulkan] Loaded instance function vkBindBufferMemory
+[vulkan] Loaded instance function vkBindImageMemory
+[vulkan] Loaded instance function vkGetBufferMemoryRequirements
+[vulkan] Loaded instance function vkGetImageMemoryRequirements
+[vulkan] Loaded instance function vkGetImageSparseMemoryRequirements
+[vulkan] Loaded instance function vkQueueBindSparse
+[vulkan] Loaded instance function vkCreateFence
+[vulkan] Loaded instance function vkDestroyFence
+[vulkan] Loaded instance function vkResetFences
+[vulkan] Loaded instance function vkGetFenceStatus
+[vulkan] Loaded instance function vkWaitForFences
+[vulkan] Loaded instance function vkCreateSemaphore
+[vulkan] Loaded instance function vkDestroySemaphore
+[vulkan] Loaded instance function vkCreateEvent
+[vulkan] Loaded instance function vkDestroyEvent
+[vulkan] Loaded instance function vkGetEventStatus
+[vulkan] Loaded instance function vkSetEvent
+[vulkan] Loaded instance function vkResetEvent
+[vulkan] Loaded instance function vkCreateQueryPool
+[vulkan] Loaded instance function vkDestroyQueryPool
+[vulkan] Loaded instance function vkGetQueryPoolResults
+[vulkan] Loaded instance function vkCreateBuffer
+[vulkan] Loaded instance function vkDestroyBuffer
+[vulkan] Loaded instance function vkCreateBufferView
+[vulkan] Loaded instance function vkDestroyBufferView
+[vulkan] Loaded instance function vkCreateImage
+[vulkan] Loaded instance function vkDestroyImage
+[vulkan] Loaded instance function vkGetImageSubresourceLayout
+[vulkan] Loaded instance function vkCreateImageView
+[vulkan] Loaded instance function vkDestroyImageView
+[vulkan] Loaded instance function vkCreateShaderModule
+[vulkan] Loaded instance function vkDestroyShaderModule
+[vulkan] Loaded instance function vkCreatePipelineCache
+[vulkan] Loaded instance function vkDestroyPipelineCache
+[vulkan] Loaded instance function vkGetPipelineCacheData
+[vulkan] Loaded instance function vkMergePipelineCaches
+[vulkan] Loaded instance function vkCreateGraphicsPipelines
+[vulkan] Loaded instance function vkCreateComputePipelines
+[vulkan] Loaded instance function vkDestroyPipeline
+[vulkan] Loaded instance function vkCreatePipelineLayout
+[vulkan] Loaded instance function vkDestroyPipelineLayout
+[vulkan] Loaded instance function vkCreateSampler
+[vulkan] Loaded instance function vkDestroySampler
+[vulkan] Loaded instance function vkCreateDescriptorSetLayout
+[vulkan] Loaded instance function vkDestroyDescriptorSetLayout
+[vulkan] Loaded instance function vkCreateDescriptorPool
+[vulkan] Loaded instance function vkDestroyDescriptorPool
+[vulkan] Loaded instance function vkResetDescriptorPool
+[vulkan] Loaded instance function vkAllocateDescriptorSets
+[vulkan] Loaded instance function vkFreeDescriptorSets
+[vulkan] Loaded instance function vkUpdateDescriptorSets
+[vulkan] Loaded instance function vkCreateFramebuffer
+[vulkan] Loaded instance function vkDestroyFramebuffer
+[vulkan] Loaded instance function vkCreateRenderPass
+[vulkan] Loaded instance function vkDestroyRenderPass
+[vulkan] Loaded instance function vkGetRenderAreaGranularity
+[vulkan] Loaded instance function vkCreateCommandPool
+[vulkan] Loaded instance function vkDestroyCommandPool
+[vulkan] Loaded instance function vkResetCommandPool
+[vulkan] Loaded instance function vkAllocateCommandBuffers
+[vulkan] Loaded instance function vkFreeCommandBuffers
+[vulkan] Loaded instance function vkBeginCommandBuffer
+[vulkan] Loaded instance function vkEndCommandBuffer
+[vulkan] Loaded instance function vkResetCommandBuffer
+[vulkan] Loaded instance function vkCmdBindPipeline
+[vulkan] Loaded instance function vkCmdSetViewport
+[vulkan] Loaded instance function vkCmdSetScissor
+[vulkan] Loaded instance function vkCmdSetLineWidth
+[vulkan] Loaded instance function vkCmdSetDepthBias
+[vulkan] Loaded instance function vkCmdSetBlendConstants
+[vulkan] Loaded instance function vkCmdSetDepthBounds
+[vulkan] Loaded instance function vkCmdSetStencilCompareMask
+[vulkan] Loaded instance function vkCmdSetStencilWriteMask
+[vulkan] Loaded instance function vkCmdSetStencilReference
+[vulkan] Loaded instance function vkCmdBindDescriptorSets
+[vulkan] Loaded instance function vkCmdBindIndexBuffer
+[vulkan] Loaded instance function vkCmdBindVertexBuffers
+[vulkan] Loaded instance function vkCmdDraw
+[vulkan] Loaded instance function vkCmdDrawIndexed
+[vulkan] Loaded instance function vkCmdDrawIndirect
+[vulkan] Loaded instance function vkCmdDrawIndexedIndirect
+[vulkan] Loaded instance function vkCmdDispatch
+[vulkan] Loaded instance function vkCmdDispatchIndirect
+[vulkan] Loaded instance function vkCmdCopyBuffer
+[vulkan] Loaded instance function vkCmdCopyImage
+[vulkan] Loaded instance function vkCmdBlitImage
+[vulkan] Loaded instance function vkCmdCopyBufferToImage
+[vulkan] Loaded instance function vkCmdCopyImageToBuffer
+[vulkan] Loaded instance function vkCmdUpdateBuffer
+[vulkan] Loaded instance function vkCmdFillBuffer
+[vulkan] Loaded instance function vkCmdClearColorImage
+[vulkan] Loaded instance function vkCmdClearDepthStencilImage
+[vulkan] Loaded instance function vkCmdClearAttachments
+[vulkan] Loaded instance function vkCmdResolveImage
+[vulkan] Loaded instance function vkCmdSetEvent
+[vulkan] Loaded instance function vkCmdResetEvent
+[vulkan] Loaded instance function vkCmdWaitEvents
+[vulkan] Loaded instance function vkCmdPipelineBarrier
+[vulkan] Loaded instance function vkCmdBeginQuery
+[vulkan] Loaded instance function vkCmdEndQuery
+[vulkan] Loaded instance function vkCmdResetQueryPool
+[vulkan] Loaded instance function vkCmdWriteTimestamp
+[vulkan] Loaded instance function vkCmdCopyQueryPoolResults
+[vulkan] Loaded instance function vkCmdPushConstants
+[vulkan] Loaded instance function vkCmdBeginRenderPass
+[vulkan] Loaded instance function vkCmdNextSubpass
+[vulkan] Loaded instance function vkCmdEndRenderPass
+[vulkan] Loaded instance function vkCmdExecuteCommands
+[vulkan] Loaded instance function vkGetImageMemoryRequirements2KHR
+[vulkan] Loaded instance function vkGetBufferMemoryRequirements2KHR
+[vulkan] Loaded instance function vkGetImageSparseMemoryRequirements2KHR
+[vulkan] Loaded instance function vkCreateDescriptorUpdateTemplateKHR
+[vulkan] Loaded instance function vkDestroyDescriptorUpdateTemplateKHR
+[vulkan] Loaded instance function vkUpdateDescriptorSetWithTemplateKHR
+[vulkan] Loaded instance function vkCmdBeginRenderPass2KHR
+[vulkan] Loaded instance function vkCmdEndRenderPass2KHR
+[vulkan] Loaded instance function vkCmdNextSubpass2KHR
+[vulkan] Loaded instance function vkCreateRenderPass2KHR
+[vulkan] Loaded instance function vkDebugMarkerSetObjectTagEXT
+[vulkan] Loaded instance function vkDebugMarkerSetObjectNameEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerBeginEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerEndEXT
+[vulkan] Loaded instance function vkCmdDebugMarkerInsertEXT
+Vulkan API version 1.1.0 (1.3.224 supported by driver, 1.1.0 requested)
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[NVIDIA GeForce GTX 1080] id=[1b80]
+Vulkan device type 2
+Vulkan driverversion=[0x83988000] uint=[-2087157760]
+Vulkan PSO: cache data not found [path=C:/Users/ISUE/AppData/Local/Temp/DefaultCompany/Project 6 - User Interface/vulkan_pso_cache.bin]
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005245 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.221318 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 555 ms
-Refreshing native plugins compatible for Editor in 131.72 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Android Extension - Scanning For ADB Devices 258 ms
+Refreshing native plugins compatible for Editor in 131.48 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.300 seconds
+- Completed reload, in  5.709 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1300ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (5710ms)
+		BeginReloadAssembly (3400ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1124ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (1768ms)
+			LoadAssemblies (3398ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (142ms)
+			SetupTypeCache (1063ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (905ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (624ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (642ms)
+				InitializePlatformSupportModulesInManaged (333ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (132ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (86ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005640 seconds.
+Registered in 0.012277 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.60 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 1.12 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
@@ -122,30 +495,30 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.82.0
 Mono: successfully reloaded assembly
-- Completed reload, in  2.347 seconds
+- Completed reload, in  7.279 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2348ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (7280ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (2144ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (6951ms)
+			LoadAssemblies (5506ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (274ms)
+			SetupTypeCache (824ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (1660ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (489ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (1162ms)
-				ProcessInitializeOnLoadAttributes (455ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -153,13 +526,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.30 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 4819 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 69 unused Assets / (1.4 MB). Loaded Objects now: 5243.
-Memory consumption went from 182.5 MB to 181.1 MB.
-Total: 4.253100 ms (FindLiveObjects: 0.473500 ms CreateObjectMapping: 0.464100 ms MarkObjects: 2.837600 ms  DeleteObjects: 0.477000 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (1.4 MB). Loaded Objects now: 5263.
+Memory consumption went from 197.3 MB to 195.9 MB.
+Total: 4.134600 ms (FindLiveObjects: 0.341400 ms CreateObjectMapping: 0.188800 ms MarkObjects: 3.297300 ms  DeleteObjects: 0.306100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,109 +546,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 152202.881744 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common
-  artifactKey: Guid(f258763b685e7924685dcc28219c17df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common using Guid(f258763b685e7924685dcc28219c17df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e3c0875bb871cbb826bb3681b32af0') in 0.013560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 85.592373 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Materials/Interior Exterior/Int_Apt_01.mat
-  artifactKey: Guid(e5edd18648b6fe340941b7f67c9a2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Materials/Interior Exterior/Int_Apt_01.mat using Guid(e5edd18648b6fe340941b7f67c9a2996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5004c69f8377b68b48205ca03100ce') in 0.719012 seconds 
+  Time since last request: 946762.384771 seconds.
+  path: Assets/FurnishedCabin/Scenes/Demo.unity
+  artifactKey: Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Scenes/Demo.unity using Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c6bac193f1cc9c5f0b132a7c8fe424') in 0.012273 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Materials/Interior Exterior/Int_Apt_03.mat
-  artifactKey: Guid(8d06d0f3581549d4fb32fda8991db882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Materials/Interior Exterior/Int_Apt_03.mat using Guid(8d06d0f3581549d4fb32fda8991db882) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833df36b5be5f506318725ca48d0b6ea') in 0.188168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.987907 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Base Scene/BA_First Person Player.prefab
-  artifactKey: Guid(a9b081014bad86f4a80b60284279d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Base Scene/BA_First Person Player.prefab using Guid(a9b081014bad86f4a80b60284279d21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2ef78c98a8842348a79b63a1f16436') in 0.490255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.257767 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Chair_01.prefab
-  artifactKey: Guid(cd8fcc5431d7f7e46be3c7c12ed32513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Chair_01.prefab using Guid(cd8fcc5431d7f7e46be3c7c12ed32513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49392fbcd20cb56a0142ecf3ed404d44') in 0.047667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Table_01.prefab
-  artifactKey: Guid(3a3c0bbe58beeff4a8d63acd5a770137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props/BPS_Table_01.prefab using Guid(3a3c0bbe58beeff4a8d63acd5a770137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178a86ecef13998e99b20bcb99f937a6') in 0.023092 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.046873 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_01.prefab
-  artifactKey: Guid(e1d90d5681101f948bb7aee7a03944a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_01.prefab using Guid(e1d90d5681101f948bb7aee7a03944a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c7db16cc9c93eefe1badc35aa4a31b') in 0.197653 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_1x1.prefab
-  artifactKey: Guid(736096cdbd0f7f34cb9e8fdc25987b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Pillar_1x1.prefab using Guid(736096cdbd0f7f34cb9e8fdc25987b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe68cbed021e3df26bbe47aa5ded0cb') in 0.019276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.697653 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_01.prefab
-  artifactKey: Guid(b973231003cf93b4f8dd9837bafc50cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_01.prefab using Guid(b973231003cf93b4f8dd9837bafc50cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e530165e84415a957adcc3d43a5dc33a') in 0.047591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_02.prefab
-  artifactKey: Guid(6b0fe008d0f2fd649ba26243e4ef0ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors Frames/Int_BA_Frame_02.prefab using Guid(6b0fe008d0f2fd649ba26243e4ef0ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c0e8457f384c26d2b0dbe8572ef6b4') in 0.014386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.034959 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Filler_02.prefab
-  artifactKey: Guid(da76ff28749b4d54ab63d4533af0b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Filler_02.prefab using Guid(da76ff28749b4d54ab63d4533af0b4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412075304d03396ff3187cd5004bc78c') in 0.017154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Floor_01.prefab
-  artifactKey: Guid(3d085e6f9521f33418df246d3b5f694f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Floor_01.prefab using Guid(3d085e6f9521f33418df246d3b5f694f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6955adb764b7b217acae6207b80c0933') in 0.017527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_01.prefab
-  artifactKey: Guid(74787c4efc3c48d48ba66f7b4a32b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_01.prefab using Guid(74787c4efc3c48d48ba66f7b4a32b975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2c11b702c61850ee0dba38ae1aaca8') in 0.019425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_02.prefab
-  artifactKey: Guid(e865b35190d61134389351f1fb9a589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_02.prefab using Guid(e865b35190d61134389351f1fb9a589f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3da290d98febddd591e86f15c33f3d') in 0.018081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_03.prefab
-  artifactKey: Guid(b5ea4c1fc5a7a044c8b2c38bf36cffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_03.prefab using Guid(b5ea4c1fc5a7a044c8b2c38bf36cffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb70abdd2eb4ae4ac99227dfaa9a43b') in 0.020483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.441427 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Fire/Torch Flame.prefab
-  artifactKey: Guid(65b0d7b3c17d2854f87e4c8416f798fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Fire/Torch Flame.prefab using Guid(65b0d7b3c17d2854f87e4c8416f798fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3350011666f5bc360620cbdfb528637e') in 0.063446 seconds 
+  path: Assets/FurnishedCabin
+  artifactKey: Guid(862ecc4a375fb4a1c83b251d54c8277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin using Guid(862ecc4a375fb4a1c83b251d54c8277e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3e086d20290d183e28bd1bbc4e0e21') in 0.006348 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005254 seconds.
+Registered in 0.009723 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 8 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 8 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -285,41 +574,41 @@ Preloading 1 native plugins for Editor in 0.11 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.017 seconds
+- Completed reload, in  1.170 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1018ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (799ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (914ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
-			ReleaseScriptCaches (2ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (352ms)
+			SetupLoadedEditorAssemblies (363ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (2ms)
+				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadAttributes (240ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 5.37 ms, found 8 plugins.
+Refreshing native plugins compatible for Editor in 5.71 ms, found 8 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 4702 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (1.4 MB). Loaded Objects now: 5294.
-Memory consumption went from 176.6 MB to 175.2 MB.
-Total: 4.023500 ms (FindLiveObjects: 0.641000 ms CreateObjectMapping: 0.156400 ms MarkObjects: 2.759200 ms  DeleteObjects: 0.466000 ms)
+Unloading 4683 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (1.4 MB). Loaded Objects now: 5248.
+Memory consumption went from 184.8 MB to 183.4 MB.
+Total: 3.472200 ms (FindLiveObjects: 0.330200 ms CreateObjectMapping: 0.342100 ms MarkObjects: 2.540500 ms  DeleteObjects: 0.258800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -333,190 +622,64 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1117.837962 seconds.
-  path: Assets/studio apartment/demo/Lightmap-0_comp_light.exr
-  artifactKey: Guid(e2d5f10bd0c000245b51549ace0b14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/demo/Lightmap-0_comp_light.exr using Guid(e2d5f10bd0c000245b51549ace0b14c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8846426ff70ed6416907b5ae10f08b') in 0.104330 seconds 
+  Time since last request: 39.803460 seconds.
+  path: Assets/Resources/OVRPlatformToolSettings.asset
+  artifactKey: Guid(c09d947a46faa474ba8bc82103f2459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(c09d947a46faa474ba8bc82103f2459f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef0e18f60d69d22ea01449547cbe2f4') in 0.030883 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/studio apartment/demo/ReflectionProbe-0.exr
-  artifactKey: Guid(95e4affd87c8dbc4abee1fe92dd50660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/demo/ReflectionProbe-0.exr using Guid(95e4affd87c8dbc4abee1fe92dd50660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bce0272fa129354213298930ed36bf') in 0.046449 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.869158 seconds.
-  path: Assets/studio apartment/prefabs/black shelf .prefab
-  artifactKey: Guid(812864d38027af94983794d40f48a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/black shelf .prefab using Guid(812864d38027af94983794d40f48a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47303d70244f76d0ab193dc2d0ec1bd') in 0.264644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/studio apartment/prefabs/blinds down.prefab
-  artifactKey: Guid(bc73256a8441894428dc460a4e63c740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/blinds down.prefab using Guid(bc73256a8441894428dc460a4e63c740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f5b0d7d6a11d1dfb7b31f748ac89c0') in 0.015778 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/studio apartment/prefabs/tv cabinet.prefab
-  artifactKey: Guid(a5b0a3eb5bf6ab5429a972325ca85d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/tv cabinet.prefab using Guid(a5b0a3eb5bf6ab5429a972325ca85d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0c8d39038abcf7722d0034290aa300') in 0.015876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/studio apartment/prefabs/table.prefab
-  artifactKey: Guid(9d13f6b6c7aeefd4b9b031829476a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/table.prefab using Guid(9d13f6b6c7aeefd4b9b031829476a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2992096095d1851a0ee65a6dee38447') in 0.018205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/studio apartment/prefabs/gray throw pillow.prefab
-  artifactKey: Guid(8bab70c36d5506d45a32e8fe8fd9d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/gray throw pillow.prefab using Guid(8bab70c36d5506d45a32e8fe8fd9d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4661eb855783ca0eee0a296c62a129d0') in 0.018177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/studio apartment/prefabs/rug .prefab
-  artifactKey: Guid(575de49403ae5a64ca3ce311154197ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/rug .prefab using Guid(575de49403ae5a64ca3ce311154197ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e2661b40c1a194f1317c0e7d123d6f') in 0.014180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/studio apartment/prefabs/pendant light.prefab
-  artifactKey: Guid(6ac48348639123b4d9a7e614e5501f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/pendant light.prefab using Guid(6ac48348639123b4d9a7e614e5501f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b623dd091a148e80d892a3592cb516d') in 0.118541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/studio apartment/prefabs/kichen cabinet sink.prefab
-  artifactKey: Guid(cefdd512c06bdfc42a40c338a4bc25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/kichen cabinet sink.prefab using Guid(cefdd512c06bdfc42a40c338a4bc25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567ec8d3db5cf46f0bf0c61932817cbe') in 0.014943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/studio apartment/prefabs/ottoman.prefab
-  artifactKey: Guid(d5fb6671a0b8cfb4da3eb0f209728672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/studio apartment/prefabs/ottoman.prefab using Guid(d5fb6671a0b8cfb4da3eb0f209728672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aad2904220ba7d32d0746da5cea809a1') in 0.013786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.445661 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Lamp 02.fbx
-  artifactKey: Guid(e501afb3ed5c60243ac1515b7ca1e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Lamp 02.fbx using Guid(e501afb3ed5c60243ac1515b7ca1e2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b759143343c8773cd454cf67ca396039') in 0.268126 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Models/SmallRoom.fbx
-  artifactKey: Guid(78906942dba6db24ca155679a45f60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Models/SmallRoom.fbx using Guid(78906942dba6db24ca155679a45f60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c4f487908e44d08026a51980b4a98b') in 0.189528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Props/Box/Models/Box.fbx
-  artifactKey: Guid(2711a10ba6518d34cb77d80f3125f3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Box/Models/Box.fbx using Guid(2711a10ba6518d34cb77d80f3125f3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc82ee292a79f6f52aa66e3c0844836') in 0.048319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Modular Wall Cabinet.fbx
-  artifactKey: Guid(5a1710e01a2c88242a4499f68198d1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Modular Wall Cabinet.fbx using Guid(5a1710e01a2c88242a4499f68198d1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596de6301ed434c2aeb7ff5025be1a05') in 0.099560 seconds 
+  Time since last request: 2.497698 seconds.
+  path: Assets/SkySeries Freebie/6SidedFluffball.mat
+  artifactKey: Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/6SidedFluffball.mat using Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff605601b0f6fbfcb8ed867e946175f') in 0.352913 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/Common/Models/BPS_RR.fbx
-  artifactKey: Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/Common/Models/BPS_RR.fbx using Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a16e6f858dd3aac78fff36f27833e0') in 0.294420 seconds 
+  path: Assets/SkySeries Freebie/HighFantasy.mat
+  artifactKey: Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/HighFantasy.mat using Guid(e2341a9d03e86ec4290c72b1e22bbc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af125b25df7254ef4d8e9518639d39d4') in 0.185149 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Props/StonePolyhedra/Models/StonePolyhedra.fbx
-  artifactKey: Guid(5357df73468672d4794f1197cecf8193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Props/StonePolyhedra/Models/StonePolyhedra.fbx using Guid(5357df73468672d4794f1197cecf8193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fd64c721955fa9bdbfd55579e1e625') in 0.063589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Corner Wall Cabinet.fbx
-  artifactKey: Guid(5a3b2c9f5dcc95944b5769d838a747e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Corner Wall Cabinet.fbx using Guid(5a3b2c9f5dcc95944b5769d838a747e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccc2971bba754f30faedb02e292223b') in 0.097994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Apt_Props_01.fbx
-  artifactKey: Guid(34e386a75bb8feb4aa0f48b512cbb268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Apt_Props_01.fbx using Guid(34e386a75bb8feb4aa0f48b512cbb268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385e177e3cec3b0d8904bde7afd98ab8') in 0.442113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 99.701422 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.006554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.994920 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.006487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.926889 seconds.
-  path: Assets/Oculus/OculusProjectConfig.asset
-  artifactKey: Guid(e94a179a2a4b33e4bbf58c6c97172b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(e94a179a2a4b33e4bbf58c6c97172b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c370de80192a05466d68da7ee48c2b') in 0.009715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.159526 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models
-  artifactKey: Guid(0e1a7a4954a0e0d47b38ada5fb16bf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models using Guid(0e1a7a4954a0e0d47b38ada5fb16bf04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe54e6d090b47675bc3973b77f896451') in 0.006223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.101765 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Apt_Kit_01.fbx
-  artifactKey: Guid(cd0bf29c9c9af6f4098b74076d25f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Apt_Kit_01.fbx using Guid(cd0bf29c9c9af6f4098b74076d25f0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc48baacc569754af12b3cfb5176376a') in 0.120007 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/wine thin glass W Liquid.fbx
-  artifactKey: Guid(28ca9505d52f64b408920ffcf4831bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/wine thin glass W Liquid.fbx using Guid(28ca9505d52f64b408920ffcf4831bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4156b9388faded075f923174917ebac1') in 0.026924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Vase.fbx
-  artifactKey: Guid(2b4a2d31e35c5ce4cacda7ea46d6d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Vase.fbx using Guid(2b4a2d31e35c5ce4cacda7ea46d6d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ffb238288c2fbc890501b863f89467') in 0.143522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Apt_Rail.fbx
-  artifactKey: Guid(7c69e40725f2d1a4687ecf3e80b2dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Apt_Rail.fbx using Guid(7c69e40725f2d1a4687ecf3e80b2dfac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f47808f46e4b3dabb644435bb508b2a') in 0.031311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/wine thin glass.fbx
-  artifactKey: Guid(09cb81f6ddeeb3046979371d041373b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/wine thin glass.fbx using Guid(09cb81f6ddeeb3046979371d041373b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e55939acce6651bf7dcf4a2e161fec') in 0.020217 seconds 
+  path: Assets/SkySeries Freebie/SunlessCirruscover.mat
+  artifactKey: Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/SunlessCirruscover.mat using Guid(4e154bf235e41704bbd6bbc6fd6c63f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f820fbcdb92e53e1727db039a9212482') in 0.109240 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Bathroom_apt_02.fbx
-  artifactKey: Guid(e9aeceee86b8ae7408c09bcee860a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Bathroom_apt_02.fbx using Guid(e9aeceee86b8ae7408c09bcee860a520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b2dd6a93be2cda3a661f65c9c00b1') in 0.036164 seconds 
+  path: Assets/SkySeries Freebie/DayInTheClouds.mat
+  artifactKey: Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/DayInTheClouds.mat using Guid(3e5399bd195de7649b874f58c1b9f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b27a3b04ee355131a9ec368dfd60f71') in 0.136455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SkySeries Freebie/CoriolisNight4k.mat
+  artifactKey: Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CoriolisNight4k.mat using Guid(d4454f71d85928744be7771e2143dab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726a73b3752bb77618ec89a8361efed2') in 0.084972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SkySeries Freebie/PlanetaryEarth.mat
+  artifactKey: Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/PlanetaryEarth.mat using Guid(16bc8a9d5451ca44d8f70575adbece3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464ede4b5945b346dd2a670ec13a706c') in 0.086626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat
+  artifactKey: Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CosmicCoolCloud_Eq.mat using Guid(369b9ebe3a62b904dbc19bd332b44086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6a9823fe3e01d4a68c281fd1b79af4') in 0.094999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SkySeries Freebie/CloudedSunGlow.mat
+  artifactKey: Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CloudedSunGlow.mat using Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b214643832660c16316397b1fd7c20') in 0.115351 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Apartment Assets/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx
-  artifactKey: Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx using Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c6b0b8776af1ee8d3ec791682e1658') in 0.029364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.827792 seconds.
-  path: Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrame_02.prefab
-  artifactKey: Guid(8e3b94d51cc83074abb1a25bf3535c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Apartment Assets/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt/IntExt_BA_GlassFrame_02.prefab using Guid(8e3b94d51cc83074abb1a25bf3535c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18871ed552e7819663510b2eed58415') in 0.922449 seconds 
+  path: Assets/SkySeries Freebie/CasualDay.mat
+  artifactKey: Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySeries Freebie/CasualDay.mat using Guid(85cf0b004bc4a654b9e501efcce47902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7aee356345581c446f09a21baf0977') in 0.092692 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

@@ -9,6 +9,7 @@ public class ToggleFireplace : MonoBehaviour
 
     public void ToggleFireplaceFire() 
     {
+        Debug.Log("Fireplace button pressed...");
         if (!isFireplaceOn) 
         {
             fireplace.SetActive(true);

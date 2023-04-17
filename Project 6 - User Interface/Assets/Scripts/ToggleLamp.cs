@@ -9,6 +9,7 @@ public class ToggleLamp : MonoBehaviour
 
     public void ToggleLampLight() 
     {
+        Debug.Log("Lamp button pressed...");
         if (!isLampOn) 
         {
             lampLightSource.SetActive(true);

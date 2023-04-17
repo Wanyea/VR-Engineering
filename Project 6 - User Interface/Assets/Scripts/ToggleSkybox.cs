@@ -8,6 +8,7 @@ public class ToggleSkybox : MonoBehaviour
 
     public void ChangeSkybox() 
     {
+        Debug.Log("Skybox button pressed...");
         int length = skyboxes.Length - 1;
         RenderSettings.skybox = skyboxes[Random.Range(0, length)];
     }
